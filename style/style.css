@@ -1,5 +1,8 @@
 @import './font.css';
 
+.body, html{
+    scroll-behavior: smooth;
+}
 .container-fluid{
     box-sizing: border-box;
     width: 100%;
@@ -28,11 +31,15 @@
 }
 .header nav{
     float: right;
+    display: flex;
+    justify-content: space-between;
 }
-.header nav>ul>li{
+.header nav>ul>li,
+.footer nav>ul>li{
     float: left;
 }
-.header a{
+.header a,
+.footer a{
     font-size: 18px;
     letter-spacing: 6px;
     line-height: 40px;
@@ -42,11 +49,11 @@
     text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
-    width: 140px;
-    text-align: center;
+    padding-right: 30px;
     margin-top: 40px;
 }
-.header a:hover{
+.header a:hover,
+footer a:hover{
     color: rgba(255, 42, 0, 0.782);
 }
 .header .activi{
@@ -336,4 +343,24 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
+}
+.footer nav{
+    display: flex;
+    justify-content: space-between;
+    float: left;
+}
+.footer a{
+    color: #1a1a1a;
+    padding-right: 30px;
+}
+.footer .social{
+    display: flex;
+    justify-content: flex-end;
+}
+.footer .social img{
+    padding-right: 30px;
+    margin-top: 55px; 
+}
+.footer{
+    margin-bottom: 50px;
 }

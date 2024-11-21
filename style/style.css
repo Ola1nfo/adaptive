@@ -11,28 +11,28 @@
     box-sizing: border-box;
     position: relative; 
 }
-header{
+.header{
     background: url(../img/banner.png);
     height: 800px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.logo{
+.header .logo{
     position: absolute;
     top: 30px;
 }
-.logo img{
+.header .logo img{
     width: 220px;
     height: 90px;
 }
-nav{
+.header nav{
     float: right;
 }
-nav>ul>li{
+.header nav>ul>li{
     float: left;
 }
-a{
+.header a{
     font-size: 18px;
     letter-spacing: 6px;
     line-height: 40px;
@@ -46,13 +46,21 @@ a{
     text-align: center;
     margin-top: 40px;
 }
-a:hover{
+.header a:hover{
     color: rgba(255, 42, 0, 0.782);
 }
-.activi{
+.header .activi{
     color: rgba(255, 42, 0, 0.782);
 }
-h2{
+.header .text{
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.header .text h2{
     font-size: 60px;
     letter-spacing: 36px;
     line-height: 70px;
@@ -60,15 +68,21 @@ h2{
     font-weight: 300;
     font-family: "Proxima Nova Light";
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-h2 span{
+.header .text h2 span{
     color: rgba(255, 42, 0, 0.782);
     font-family: "Proxima Nova Bold";
     font-size: 30px;
     display: block;
-    justify-content: center;
-    align-items: center;
+}
+.arrow{
+    width: 65px;
+    height: 35px;
+    position: absolute;
+    bottom: 100px;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
 }

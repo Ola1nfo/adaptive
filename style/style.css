@@ -1,0 +1,74 @@
+@import './font.css';
+
+.container-fluid{
+    box-sizing: border-box;
+    width: 100%;
+    clear: both;
+}
+.container{
+    margin: 0 auto;
+    width: 1200px;
+    box-sizing: border-box;
+    position: relative; 
+}
+header{
+    background: url(../img/banner.png);
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.logo{
+    position: absolute;
+    top: 30px;
+}
+.logo img{
+    width: 220px;
+    height: 90px;
+}
+nav{
+    float: right;
+}
+nav>ul>li{
+    float: left;
+}
+a{
+    font-size: 18px;
+    letter-spacing: 6px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Proxima Nova Semibold";
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    text-align: center;
+    margin-top: 40px;
+}
+a:hover{
+    color: rgba(255, 42, 0, 0.782);
+}
+.activi{
+    color: rgba(255, 42, 0, 0.782);
+}
+h2{
+    font-size: 60px;
+    letter-spacing: 36px;
+    line-height: 70px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Proxima Nova Light";
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2 span{
+    color: rgba(255, 42, 0, 0.782);
+    font-family: "Proxima Nova Bold";
+    font-size: 30px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}

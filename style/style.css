@@ -1,4 +1,5 @@
 @import './font.css';
+@import './nout.css';
 
 .body, html{
     scroll-behavior: smooth;
@@ -28,6 +29,9 @@
 .header .logo img{
     width: 220px;
     height: 90px;
+}
+.header .menu-icon{
+    display: none;
 }
 .header nav{
     float: right;
@@ -360,7 +364,61 @@ footer a:hover{
 .footer .social img{
     padding-right: 30px;
     margin-top: 55px; 
+    transition: filter 0.3s ease;
+}
+.footer .social img:hover{
+    cursor: pointer;
 }
 .footer{
     margin-bottom: 50px;
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .container{
+        width: 700px;
+    }
+    .header .menu-icon{
+        display: inline-block;
+    }
+    .menu{
+        position: relative;
+        float: right;
+    }
+    .menu-icon{
+        width: 50px;
+        cursor: pointer;
+        margin-top: 45px;
+    }
+    .menu nav{
+        display: none;
+        position: absolute;
+        top: 100%;   
+        padding: 10px;
+        z-index: 100;
+        width: 100px;
+    }
+    .menu nav ul {
+        margin-left: -10px;
+        padding: 0;
+        margin-top: -10px;
+    }
+    .menu nav ul li a {
+        font-size: 18px;
+        letter-spacing: 6px;
+        line-height: 40px;
+        color: #ffffff;
+        font-weight: bold;
+        font-family: "Proxima Nova Semibold";
+        margin-top: -50px;
+    }
+    .menu nav ul li a:hover {
+        color: rgba(255, 42, 0, 0.782);
+    }
+    .menu:hover nav {
+        display: block;
+    }
+    .arrow{
+        bottom: 50px;
+    }
 }

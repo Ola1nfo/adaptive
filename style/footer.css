@@ -1,0 +1,45 @@
+.footer nav{
+    display: flex;
+    justify-content: space-between;
+    float: left;
+}
+.footer a{
+    font-size: 18px;
+    letter-spacing: 6px;
+    line-height: 40px;
+    color: #1a1a1a;
+    font-weight: bold;
+    font-family: "Proxima Nova Semibold";
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 30px;
+    margin-top: 40px;
+}
+.footer .social{
+    display: flex;
+    justify-content: flex-end;
+}
+.footer .social img{
+    padding-right: 30px;
+    margin-top: 55px; 
+    transition: filter 0.3s ease;
+}
+.footer .social img:hover{
+    cursor: pointer;
+}
+.footer{
+    margin-bottom: 50px;
+}
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .footer a{
+        font-size: 12px;
+        letter-spacing: 2px;
+        padding-right: 10px;
+    }
+    .footer .social img{
+        margin-top: 60px; 
+        width: 25px;
+        height: 25px;
+    }
+}

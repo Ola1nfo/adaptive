@@ -1,0 +1,365 @@
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.gourmet{
+    grid-column: 1/3;
+    grid-row: 1/3;
+    position: relative;
+}
+.gourmet img{
+    height: 600px;
+    width: 780px;
+}
+.gourmet .icon{
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+    width: 150px;
+    height: 150px;
+}
+.gourmet p{
+    position: absolute;
+    bottom: -30px;
+    left: 50px;
+    font-size: 50px;
+    letter-spacing: 24px;
+    line-height: 70px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Proxima Nova Light";
+    text-align: right;
+}
+.carhartt{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    position: relative;
+}
+.carhartt img{
+    height: 290px;
+    width: 345px;
+}
+.carhartt .icon{
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+    width: 80px;
+    height: 80px;
+}
+.carhartt p{
+    position: absolute;
+    bottom: -20px;
+    left: 20px;
+    font-size: 30px;
+    letter-spacing: 16px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Proxima Nova Light";
+    text-align: left;
+}
+.adidas{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    position: relative;
+}
+.adidas img{
+    height: 290px;
+    width: 345px;
+}
+.adidas .icon{
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+    width: 100px;
+    height: 80px;
+}
+.adidas p{
+    position: absolute;
+    bottom: -20px;
+    left: 20px;
+    font-size: 30px;
+    letter-spacing: 16px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Proxima Nova Light";
+    text-align: left;
+    width: 300px;
+}
+.deep{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    position: relative;
+}
+.deep img{
+    width: 370px;
+    height: 470px;
+}
+.deep .icon{
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+    width: 230px;
+    height: 80px;
+}
+.deep p{
+    position: absolute;
+    bottom: -20px;
+    left: 20px;
+    font-size: 30px;
+    letter-spacing: 16px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Proxima Nova Light";
+    text-align: left;
+    width: 350px;
+}
+.palace{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    position: relative;
+}
+.palace img{
+    width: 370px;
+    height: 470px;
+}
+.palace .icon{
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+    width: 100px;
+    height: 80px;
+}
+.palace p{
+    position: absolute;
+    bottom: -20px;
+    left: 20px;
+    font-size: 30px;
+    letter-spacing: 16px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Proxima Nova Light";
+    text-align: left;
+    width: 300px;
+}
+.tech{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    position: relative;
+}
+.tech img{
+    width: 345px;
+    height: 470px;
+}
+.tech .icon{
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+    width: 140px;
+    height: 80px;
+}
+.tech p{
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+    font-size: 30px;
+    letter-spacing: 16px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Proxima Nova Light";
+    text-align: left;
+    width: 300px;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .container {
+        height: 100%;
+        margin: 0;
+        display: grid;
+        place-items: center;
+    }
+    .main{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.gourmet{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    position: relative;
+}
+.gourmet img{
+    height: 500px;
+    width: 670px;
+}
+.gourmet .icon{
+    position: absolute;
+    bottom: 80px;
+    left: 30px;
+    width: 120px;
+    height: 120px;
+}
+.gourmet p{
+    position: absolute;
+    bottom: -30px;
+    left: 30px;
+    font-size: 40px;
+    letter-spacing: 24px;
+    line-height: 70px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Proxima Nova Light";
+    text-align: right;
+}
+.carhartt{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    position: relative;
+}
+.carhartt img{
+    height: 208px;
+    width: 310px;
+}
+.carhartt .icon{
+    position: absolute;
+    bottom: 80px;
+    left: 20px;
+    width: 60px;
+    height: 60px;
+}
+.carhartt p{
+    position: absolute;
+    bottom: -10px;
+    left: 20px;
+    font-size: 22px;
+    letter-spacing: 16px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Proxima Nova Light";
+    text-align: left;
+}
+.adidas{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    position: relative;
+}
+.adidas img{
+    height: 208px;
+    width: 310px;
+}
+.adidas .icon{
+    position: absolute;
+    top: 75px;
+    left: 20px;
+    width: 80px;
+    height: 60px;
+}
+.adidas p{
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    font-size: 22px;
+    letter-spacing: 16px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Proxima Nova Light";
+    text-align: left;
+    width: 300px;
+}
+.deep{
+    grid-column: 1/2;
+    grid-row: 2/4;
+    position: relative;
+}
+.deep img{
+    width: 340px;
+    height: 440px;
+}
+.deep .icon{
+    position: absolute;
+    top: 300px;
+    left: 20px;
+    width: 210px;
+    height: 60px;
+}
+.deep p{
+    position: absolute;
+    top: 350px;
+    left: 20px;
+    font-size: 25px;
+    letter-spacing: 16px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Proxima Nova Light";
+    text-align: left;
+    width: 350px;
+}
+.palace{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    position: relative;
+}
+.palace img{
+    width: 340px;
+    height: 440px;
+}
+.palace .icon{
+    position: absolute;
+    bottom: 90px;
+    left: 20px;
+    width: 90px;
+    height: 75px;
+}
+.palace p{
+    position: absolute;
+    bottom: -20px;
+    left: 20px;
+    font-size: 26px;
+    letter-spacing: 16px;
+    line-height: 35px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Proxima Nova Light";
+    text-align: left;
+    width: 300px;
+}
+.tech{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    position: relative;
+}
+.tech img{
+    width: 310px;
+    height: 440px;
+}
+.tech .icon{
+    position: absolute;
+    bottom: 70px;
+    left: 20px;
+    width: 120px;
+    height: 60px;
+}
+.tech p{
+    position: absolute;
+    bottom: -5px;
+    left: 20px;
+    font-size: 25px;
+    letter-spacing: 16px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Proxima Nova Light";
+    text-align: left;
+    width: 300px;
+}
+}

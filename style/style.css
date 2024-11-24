@@ -68,3 +68,91 @@ body, html{
         width: 700px;
     }
 }
+
+@media screen and (max-width: 426px){
+    .container{
+        width: 280px;
+    }
+    .header{
+        height: 400px;
+        margin-bottom: 30px;
+    }
+    .header .logo{
+        top: 10px;
+    }
+    .header .logo img{
+        width: 80px;
+        height: 40px;
+    }
+    .header .menu-icon{
+        display: inline-block;
+    }
+    .menu{
+        position: relative;
+        float: right;
+    }
+    .menu-icon{
+        width: 30px;
+        cursor: pointer;
+        margin-top: 15px;
+    }
+    .menu nav{
+        display: none;
+        position: absolute;
+        top: 100%;   
+        padding: 10px;
+        z-index: 100;
+    }
+    .menu nav ul {
+        margin-left: -20px;
+        padding: 0;
+        margin-top: -15px;
+    }
+    .menu nav ul li a {
+        font-size: 10px;
+        letter-spacing: 1px;
+        line-height: 10px;
+        margin-top: -60px;
+    }
+    .menu:hover nav {
+        display: block;
+    }
+    .header .text{
+        width: 280px;
+    }
+    .header .text h2{
+        font-size: 25px;
+        letter-spacing: 15px;
+        line-height: 50px;
+        padding-bottom: 300px;
+    }
+    .header .text h2 span{
+        color: rgba(255, 42, 0, 0.782);
+        font-family: "Proxima Nova Bold";
+        font-size: 15px;
+        display: block;
+    }
+    .arrow img{
+        width: 45px;
+        height: 25px;
+        position: absolute;
+        bottom: 300px;
+    }
+    .instagram .text p{
+        font-size: 25px;
+        letter-spacing: 15px;
+        line-height: 40px;
+        color: #ffffff;
+        font-weight: 300;
+        font-family: "Proxima Nova Light";
+        text-align: center;
+    }
+    .instagram .text p span{
+        color: rgba(255, 42, 0, 0.782);
+        font-family: "Proxima Nova Bold";
+        font-size: 15px;
+        display: block;
+        letter-spacing: 20px;
+        line-height: 30px;
+    }
+}

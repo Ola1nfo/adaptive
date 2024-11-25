@@ -22,7 +22,7 @@
 }
 .footer .social img{
     padding-right: 30px;
-    margin-top: 55px; 
+    margin-top: 25px; 
     transition: filter 0.3s ease;
 }
 .footer .social img:hover{
@@ -38,7 +38,7 @@
         padding-right: 10px;
     }
     .footer .social img{
-        margin-top: 60px; 
+        margin-top: 25px; 
         width: 25px;
         height: 25px;
     }
